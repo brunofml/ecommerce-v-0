@@ -9,6 +9,7 @@
 	<configs>
 		<config>Web/WEB-INF/ecommerce-servlet.xml</config>
 		<config>src/com/ecommerce/spring/config/dao-context.xml</config>
+		<config>src/com/ecommerce/spring/config/service-context.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
