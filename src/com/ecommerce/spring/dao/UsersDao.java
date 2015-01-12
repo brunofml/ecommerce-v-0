@@ -8,6 +8,8 @@ import javax.persistence.TypedQuery;
 
 import org.springframework.stereotype.Component;
 
+import com.ecommerce.spring.dao.entities.Users;
+
 @Component("usersDao")
 public class UsersDao {
 

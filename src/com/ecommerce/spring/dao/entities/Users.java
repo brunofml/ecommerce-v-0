@@ -1,4 +1,4 @@
-package com.ecommerce.spring.dao;
+package com.ecommerce.spring.dao.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,7 +9,6 @@ import javax.persistence.Id;
 public class Users {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private String username;
 	private String email;
 	private String password;

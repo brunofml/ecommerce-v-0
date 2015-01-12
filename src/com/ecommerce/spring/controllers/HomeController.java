@@ -8,8 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.ecommerce.spring.dao.Users;
 import com.ecommerce.spring.dao.UsersDao;
+import com.ecommerce.spring.dao.entities.Users;
 import com.ecommerce.spring.service.UsersService;
 
 @Controller
