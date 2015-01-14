@@ -1,0 +1,138 @@
+.row {
+    max-width: 100.5rem;
+}
+
+.name img {
+    height: 40px;
+    margin-bottom: 2px;
+}
+
+.side-nav {
+    border: 1px solid #d8d8d8;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    padding: 0;
+}
+
+.header.bg-blue {
+    background: #6db33f;
+    height: 50px;
+}
+
+.row .header {
+    height: 120px;
+    margin-top: 0;
+}
+
+.small-10 input[type="text"], .small-2 a {
+    height: 31px;
+    margin-top: 9px;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 14px;
+
+}
+
+.header .large-6 {
+    height: 100%;
+}
+
+ul.breadcrumbs {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.large-3 .row.collapse {
+    height: 31px;
+}
+
+.row .large-9 {
+    margin-top: 0.9rem;
+}
+
+.small-2 .button {
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.breadcrumbs > * a {
+     color: #ffffff;
+    font-size: 1.3em;
+ }
+
+.breadcrumbs {
+    border-style: none;
+    background-color: #6db33f;
+}
+
+.breadcrumbs > *:before {
+    color: #ffffff;
+}
+
+.hide-for-small.panel {
+    margin-top: 1.35rem;
+    height: 60px;
+    padding: 0;
+}
+
+.hide-for-small #userLogged {
+    margin-top: 1.35rem;
+}
+
+.large-2 #userLogo {
+    height: 25px;
+    width: 25px;
+}
+
+.row h2 {
+    margin-left: 15px;
+}
+
+.subheader {
+    margin-left: 15px;
+    text-align: left;
+}
+
+.createAccountBtn {
+    margin-left: 15px;
+}
+
+.account {
+    margin-top: 40px;
+}
+
+.button {
+    background-color: #6db33f;
+    border-color: #387F38;
+}
+
+.button:hover, .button:focus {
+    background-color: #387F38;
+}
+
+.imageZoom {
+    margin-top: 30px;
+}
+
+.addToCartButton {
+    margin-left: 15px;
+}
+
+.whishlist {
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.addToCartButton i {
+    margin-right: 10px;
+}
+
+.tabs-sec {
+    margin-left: 15px;
+}
+
+dd.active {
+    border-top: 2px solid #6db33f;
+}
+

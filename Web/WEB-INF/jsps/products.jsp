@@ -8,7 +8,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ecommerce-Home</title>
+<title>Ecommerce-Products</title>
 
 <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
 <link href="<c:url value="resources/static/css/normalize.css" />"
@@ -136,22 +136,6 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="row">
-		<div class="large-12 hide-for-small">
-
-			<div id="featured" data-orbit>
-				<img src="<c:url value="resources/static/img/web-design.png" />"
-					alt="slide image"> <img
-					src="<c:url value="resources/static/img/lgG2.jpg" />"
-					alt="slide image"> <img
-					src="<c:url value="resources/static/img/slide_4.jpg" />"
-					alt="slide image">
-			</div>
-
-		</div>
-	</div>
-
 	<div class="row">
 
 
@@ -170,26 +154,17 @@
 				</div>
 			</div>
 
+
 			<ul class="side-nav">
-				<c:forEach var="category" items="${categories}">
-
-					<li><a href="${pageContext.request.contextPath}/products?id=<c:out value="${category.categoryId}"></c:out>"><c:out value="${category.type}"></c:out></a></li>
-
-				</c:forEach>
+				<li><a href="#">Section 1</a></li>
+				<li><a href="#">Section 2</a></li>
+				<li><a href="#">Section 3</a></li>
+				<li><a href="#">Section 4</a></li>
+				<li><a href="#">Section 5</a></li>
+				<li><a href="#">Section 6</a></li>
 			</ul>
 
-			<p>
-				<span class='zoom' id='ex1'><img
-					src="http://placehold.it/320x240&text=Ad" /></span>
-			</p>
-
-
-			<div class="hide-for-small panel">
-				<h3>Header</h3>
-				<h5 class="subheader">Risus ligula, aliquam nec fermentum
-					vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio
-					ornare sagittis.</h5>
-			</div>
+			<!--<p><img src="http://placehold.it/320x240&text=Ad"/></p>-->
 
 			<a href="#">
 				<div class="panel callout radius">
@@ -202,48 +177,22 @@
 
 		<div class="large-9 columns">
 			<div class="row">
-				<h2>Produtos em Destaque</h2>
-				<div class="large-4 small-6 columns">
-					<img src="http://placehold.it/1000x1000&text=Thumbnail">
 
-					<div class="panel">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
-				</div>
-
-				<div class="large-4 small-6 columns">
-					<img src="http://placehold.it/500x500&text=Thumbnail">
-
-					<div class="panel">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
-				</div>
-
-				<div class="large-4 small-6 columns">
-					<img src="http://placehold.it/500x500&text=Thumbnail">
-
-					<div class="panel">
-						<h5>Item Name</h5>
-						<h6 class="subheader">$000.00</h6>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<h2>Produtos Recentes</h2>
 				<c:forEach var="product" items="${products}">
-					<div class="large-4 small-6 columns">
-						<img src="http://placehold.it/500x500&text=Thumbnail">
+					<div class="large-3 small-6 columns">
+						<div class="thumb">
+							<img src="http://placehold.it/500x500&text=Thumbnail">
 
-						<div class="panel">
-							<h5>
-								<c:out value="${product.name}"></c:out>
-							</h5>
-							<h6 class="subheader">$000.00</h6>
+							<div class="panel">
+								<h5>
+									<c:out value="${product.name}"></c:out>
+								</h5>
+								<h6 class="subheader">$000.00</h6>
+							</div>
 						</div>
 					</div>
 				</c:forEach>
+
 			</div>
 
 
@@ -294,11 +243,6 @@
 		</div>
 	</footer>
 
-	<script>
-		document.write('<script src=js/vendor/'
-				+ ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>')
-	</script>
-
 	<script src="<c:url value="resources/static/js/vendor/jquery.js" />"></script>
 	<script src="<c:url value="resources/static/js/foundation.min.js" />"></script>
 	<script>
@@ -306,5 +250,3 @@
 	</script>
 
 </body>
-
-</html>

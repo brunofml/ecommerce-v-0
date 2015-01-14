@@ -4,9 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.ecommerce.spring.dao.UsersDao;
-import com.ecommerce.spring.dao.entities.Users;
-import com.ecommerce.spring.dao.repository.UsersRepository;
+
+//import com.ecommerce.spring.dao.UsersDao;
+
+import com.ecommerce.spring.repository.User;
+import com.ecommerce.spring.repository.UsersRepository;
 
 import java.util.List;
 
@@ -24,7 +26,7 @@ public class UsersService {
 //		this.usersDao = usersDao;
 //	}
 
-	public List<Users> getAllUsers() {
+	public List<User> getAllUsers() {
 //		Users user = new Users();
 //		user.setUsername("morgado");
 //		user.setName("Filipe");
